@@ -4,7 +4,8 @@ Javascript detection of repetitive strings usine the LZ algorithm
 ## Node.js
     npm install flood-detector
 
-then :
+then:
+
     FloodDetector = require('flood-detector');
     if (FloodDetector.evaluate(string)) {
       console.log('probably not flood');
@@ -15,6 +16,8 @@ then :
 
 ## bower
     bower install flood-detector
+
+then:
 
     <script src="bower_components/lz-string/libs/lz-string.min.js"></script>
     <script src="bower_components/flood-detector/flood-detector.js"></script>
