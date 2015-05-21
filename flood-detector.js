@@ -10,7 +10,7 @@ var FloodDetector = (function () {
 
   var FloodDetector = {
     evaluate: function (string, _trigger) {
-      var trigger = _trigger || 40;
+      var trigger = _trigger || 30;
       var size = string.length;
       var sizeCompressed = lz.compress(string).length;
       var taux = sizeCompressed / size * 100;

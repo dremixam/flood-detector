@@ -1,5 +1,5 @@
 # flood-detector
-Javascript detection of repetitive strings usine the LZ algorithm
+Javascript detection of repetitive strings using the LZ algorithm
 
 Short demo can be found [here](http://storage.melinon.com/flood/).
 
