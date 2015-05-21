@@ -1,7 +1,10 @@
 # flood-detector
 Javascript detection of repetitive strings usine the LZ algorithm
 
+Short demo can be found [here](http://storage.melinon.com/flood/).
+
 ## Node.js
+
     npm install flood-detector
 
 then:
@@ -15,6 +18,7 @@ then:
 
 
 ## bower
+
     bower install flood-detector
 
 then:
