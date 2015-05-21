@@ -16,6 +16,14 @@ then :
 ## bower
     bower install flood-detector
 
-    
+    <script src="bower_components/lz-string/libs/lz-string.min.js"></script>
+    <script src="bower_components/flood-detector/flood-detector.js"></script>
+    <script>
+      if (FloodDetector.evaluate(string)) {
+        console.log('probably not flood');
+      } else {
+        console.log('probably flood');
+      }
+    </script>
 
-Yeah, that's a damn small package
+Yeah, that's a damn small package but very useful for me.
