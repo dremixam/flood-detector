@@ -1,6 +1,13 @@
-var lz = require('lz-string');
-
 var FloodDetector = (function () {
+  var lz;
+  if (typeof require !== 'undefined' && require != null) {
+    lz = require('lz-string');
+  } else if (typeof LZString !== 'undefined' && LZString != null) {
+    lz = LZString;
+  } else {
+    console.error('Can\'t find LZString dependancy.');
+  }
+
   var FloodDetector = {
     evaluate: function (string, _trigger) {
       var trigger = _trigger || 40;
