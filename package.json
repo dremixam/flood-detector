@@ -1,6 +1,6 @@
 {
   "name": "flood-detector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a function which evaluates if a text looks like flood or normal text using lz algorithm",
   "main": "flood-detector.js",
   "dependencies": {
@@ -11,5 +11,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maxime Mélinon <maxime@melinon.com>",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dremixam/flood-detector.git"
+  },
+  "keywords": [
+    "flood"
+  ],
+  "bugs": {
+    "url": "https://github.com/dremixam/flood-detector/issues"
+  },
+  "homepage": "https://github.com/dremixam/flood-detector"
 }

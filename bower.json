@@ -1,7 +1,7 @@
 {
   "name": "flood-detect",
   "main": "flood-detector.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Maxime Mélinon <maxime@melinon.com>"
   ],
@@ -16,5 +16,9 @@
   ],
   "dependencies": {
     "lz-string": "~1.4.3"
-  }
+  },
+  "homepage": "https://github.com/dremixam/flood-detector",
+  "keywords": [
+    "flood"
+  ]
 }
