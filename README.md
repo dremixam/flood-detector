@@ -1,6 +1,14 @@
 # flood-detector
 Javascript detection of repetitive strings using the LZ algorithm
 
+How it works ?
+
+When people type garbage messages in order to be annoying, they tend to repeat word or letters or to use specific patterns which will allow a better compression of the string.
+By LZ-compressing the string and looking how much we were able to reduce its size, we can estimate if the text is garbage or real text.
+
+This is not perfect and I think maybe there is a better solution for this. Don't hesitate to [tell me](https://twitter.com/dremixam) if you know a better way.
+
+This is currently active on https://fr.lou.lt/ to avoid annoying floods.
 Short demo can be found [here](http://storage.melinon.com/flood/).
 
 ## Node.js
@@ -15,9 +23,14 @@ then:
     } else {
       console.log('probably flood');
     }
+    
 
+There is an optional parameter to change the trigger value (default value is 30) :
 
-## bower
+    // This will return true only if the compressed string has more than 40% of the size of the original string
+    FloodDetector.evaluate(string, 40); 
+
+## Bower
 
     bower install flood-detector
 

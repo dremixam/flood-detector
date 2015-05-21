@@ -1,6 +1,6 @@
 {
   "name": "flood-detector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Provides a function which evaluates if a text looks like flood or normal text using lz algorithm",
   "main": "flood-detector.js",
   "dependencies": {
